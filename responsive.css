@@ -1,0 +1,194 @@
+@media all and (max-width:1880px) {
+
+
+    .box {
+        flex: 1 1 22rem;
+    }
+}
+
+@media all and (max-width:1135px) {
+    .booking img {
+        margin-left: 16vw;
+    }
+
+    .booking-content {
+        width: 50vw;
+    }
+
+    .home {
+        height: 100%;
+    }
+
+}
+
+@media all and (max-width:1025px) {
+    header {
+        font-size: 55%;
+    }
+
+    header .logo {
+        font-size: 1.9rem;
+    }
+
+    section {
+        padding: 0rem;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .headings p {
+        font-size: 1.5rem;
+
+    }
+
+    #menu-bar {
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        height: 60vh;
+        flex-direction: column;
+        background-color: #333;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        border-radius: .5rem;
+        padding: 1rem;
+        margin: 1.4rem 0;
+        font-size: 15px;
+        background-color: rgb(29, 28, 28);
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-image img {
+        margin-left: 11rem;
+        width: 410px;
+    }
+
+    .booking-image {
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-section {
+        padding: 0rem 3%;
+    }
+
+    .footer-content {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .footer-travel {
+        margin-right: 0%;
+        min-width: 40vw;
+    }
+}
+
+@media (max-width:750px) {
+    .booking-image img {
+        margin-left: 8rem;
+    }
+
+}
+
+@media (max-width:920px) {
+    html{
+        font-size: 70%;
+    }
+    .box {
+        flex: 1 1 16rem;
+    }
+
+    .booking-section {
+        max-width: 90vw;
+    }
+
+    .travel-section {
+        max-width: 90vw;
+    }
+    i.rate{
+        font-size: 18px;
+    }
+    .fa-solid{
+        font-size: 20px;
+    }
+
+    .contact-section {
+        max-width: 100vw;
+    }
+
+    .about-box {
+        flex-wrap: wrap-reverse;
+    }
+
+    .left-box {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:550px) {
+    .heading span {
+        font-size: 19px;
+    }
+
+    .headings p {
+        font-size: 1.2rem;
+    }
+
+    .booking-content {
+        width: 100%;
+    }
+
+    .booking-image img {
+        width: 310px;
+        margin-left: 0;
+    }
+
+    .contact-box {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .contact-form .form-content {
+        width: 90%;
+    }
+
+    .footer-content {
+        justify-content: flex-start;
+    }
+
+    .footer-travel {
+        min-width: 85vw;
+    }
+
+    .branch {
+
+        margin-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+    .credits {
+        font-size: 13px;
+    }
+}
